@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const Url="https://todo-be-ldmc.onrender.com/";
+const Url="https://todo-be-ldmc.onrender.com";
 
 const getAllTodo=(setTodo)=>{
     axios.get(Url)
