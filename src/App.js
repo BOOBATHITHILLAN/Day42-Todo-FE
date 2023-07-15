@@ -28,9 +28,7 @@ function App() {
         <input type="text"
          placeholder="Add ToDos..."
           value={text}
-           onChange={(e)=>setText(e.target.value)}
-             required
-        />
+           onChange={(e)=>setText(e.target.value)}/>
         <div className="add" onClick={isUpdating?
           ()=>updateTodo(todoId,text,setTodo,setText,setIsUpdating):
           ()=>addTodo(text,setText,setTodo)}
