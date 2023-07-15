@@ -48,6 +48,7 @@ function App() {
             {isUpdating ? "Update" : "Add"}
           </button>
           </form>
+          </div>
           <div>
             {!text && check && <span className="validate">Required</span>}
           </div>
