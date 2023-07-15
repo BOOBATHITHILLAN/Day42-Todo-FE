@@ -37,6 +37,7 @@ input{
   color: white;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
+  margin-left:2rem;
 }
 .todo{
   position: relative;
