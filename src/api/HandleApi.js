@@ -5,7 +5,6 @@ const Url = "https://todo-be-ldmc.onrender.com";
 const getAllTodo = (setTodo) => {
     axios.get(Url)
         .then(({ data }) => {
-            console.log(data);
             setTodo(data);
         })
 }
